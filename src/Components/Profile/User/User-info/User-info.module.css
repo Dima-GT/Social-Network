@@ -1,0 +1,15 @@
+
+.user_info{
+    grid-area: user-info;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.item{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+

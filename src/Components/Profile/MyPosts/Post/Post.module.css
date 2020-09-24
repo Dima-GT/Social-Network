@@ -1,0 +1,19 @@
+.post{
+    display: flex;
+    justify-content: flex-start;
+    grid-area: post;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.post_text {
+    margin-left: 15px;
+}
+
+.img {
+    background: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

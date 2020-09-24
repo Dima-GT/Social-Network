@@ -1,0 +1,26 @@
+
+.img {
+    grid-area: img;
+    border-radius: 50%;
+    background: red;
+    height: 45px;
+    width: 45px;
+}
+
+
+.messages{
+    grid-area: message;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.isMine{
+    flex-flow: row-reverse;
+
+}
+
+
+.message {
+    /*align-content: flex-end;*/
+}

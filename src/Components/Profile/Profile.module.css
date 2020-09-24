@@ -1,0 +1,11 @@
+.mainProfile {
+    grid-area: article;
+    padding: 0;
+
+}
+
+.background {
+    grid-area: back;
+    background: linear-gradient(to top right, orange, purple);
+    height: 150px;
+}

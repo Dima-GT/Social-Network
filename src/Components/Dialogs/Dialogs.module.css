@@ -1,0 +1,31 @@
+.dialogs {
+    /*width: 45%;*/
+    display: grid;
+    grid-template-areas:
+            "dialog message";
+    grid-template-rows: 90px 1fr;
+    grid-template-columns: 45% 1fr;
+}
+
+.messageWrap {
+
+    /*display: flex;*/
+}
+/*.img {*/
+/*    grid-area: img;*/
+/*}*/
+
+.messageButton{
+    background: tomato;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.chat{
+    grid-area: chat;
+}
+
+.textArea{
+    margin-top: 70px;
+    position: relative;
+}
