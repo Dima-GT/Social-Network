@@ -15,7 +15,6 @@ const PostsContainer = () => {
                 let addPost = () => {
                     store.dispatch(addPostActionCreator());
                 }
-
                 let onPostChange = (text) =>{
                     let action = updateNewPostTextActionCreator(text);
                     store.dispatch(action)
